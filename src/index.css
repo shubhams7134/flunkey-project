@@ -141,7 +141,7 @@ h3{
   height: 7rem;
   background: #fff !important;
   margin-top: 0 ;
-  border-bottom: 3px solid black;
+  border-bottom: 3px solid black !important;
   border-bottom-width:length;
   padding-top: 0;
 }

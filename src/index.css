@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body{
+    background:#F0F8FF;
+    font-family: 'Poppins', sans-serif;
+}
+.card-heading {
+  color: black;
+  font-style: bold;
+  font-size: 200%;
+  font-weight: 1000;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+.text-heading {
+  color: red ;
+  padding-top: 1%;
+}
+#btnSearch,
+#btnClear{
+    display: inline-block;
+    vertical-align: top;
+}
+.card-height{
+  min-height: 100px !important;
+}
+.textOverImage{
+  position:relative;
+  float:left;
+  margin:0px;
+  background-size:100%;
+  background-position:center;
+  transition:0.5s;
+}
+
+.textOverImage:hover{
+  background-size:100%;
+}
+.nav{
+  padding-left:25%;
+}
+.textOverImage:after{
+  position:absolute;
+  top:100%;
+  bottom:0;
+  left:0;
+  right:0;
+  white-space:pre-wrap;
+  overflow:hidden;
+  background-color:rgba(0,0,0,0.6);
+  color:#fff;
+  padding:0 0;
+  opacity:0;
+  content:attr(data-text);
+  transition:0.5s;
+  font-family: 'Poppins', sans-serif;
+}
+.image__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
+  font-family: 'Quicksand', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+.main-text {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-size: 250%;
+  padding-bottom: 1rem;
+  margin-bottom: 0;
+}
+.image__overlay--blur {
+  backdrop-filter: blur(1000px);
+}
+.row{
+  padding: auto !important;
+}
+
+.image__overlay--primary {
+  background: #009578;
+}
+.boundary {
+  width: 80% ;
+  background-color: #ffffff;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-top: 2%;
+  padding-bottom: 2%;
+}
+.image__overlay > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+  opacity: 1;
+}
+
+.image__overlay:hover > * {
+  transform: translateY(0);
+}
+
+
+
+.image__description {
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+.hotel {
+  width: 80%;
+  align-content: center;
+  align-self: center !important;
+  margin: auto;
+  margin-top: 2% !important;
+}
+
+.textOverImage:hover:after{
+  opacity:1;
+  top:0;
+  padding:8px;
+}
+
+.textOverImage:first-line{
+  color:#fff;
+  font-weight:bold;
+  font-size:1.5em;
+}
+
+.custom-navbar {
+  height: 7rem;
+  background: #fff !important;
+  margin-top: 0 ;
+  border-bottom: 3px solid black;
+  border-bottom-width:length;
+  padding-top: 0;
+}
+.navbar .image {
+  height: 100%;
+  margin: 0;
+  padding: 0%;
+  position: relative;
+}
+
+.social-box .box{
+    background: #FFFFE0;
+    border-radius: 10px; 
+    padding: 0px 0px;
+    margin: 20px 0px;
+    cursor: help;
+    transition: all 0.5s ease-out;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px white;
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 6px black;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color: #4183D7;
+    font-size: 16px;
+}
+
+.fa{
+     color:#4183D7;
+}
+
+.Review {
+  padding-top: 2% !important;
+  margin-left: 0.5% !important;
+  margin: auto;
+}
+
+.custom-navbar-main-text {
+  font-family: 'Roboto', sans-serif;
+  color: #3e4444;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 150%;
+  font-style: inherit;
+  text-shadow: 0 4px 8px 0 rgba(0,0,0,0.2) !important;
+  font-style: bold;
+}
+.topnav {
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  border-bottom: 3px solid #00BFFF;
+  border-bottom-width: thick;
+}
+
+.topnav a.active {
+  border-bottom: 3px solid #00BFFF;
+  border-bottom-width:length;
+}
+
+.h-100{
+  height: 100% !important;
+}
+
+.justify-content-center {
+  text-align: center !important;
+}
+
+
+.footer p {
+  padding-top: 2rem;
+  text-align: center !important;
+  color: #000;
+}

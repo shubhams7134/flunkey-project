@@ -36,7 +36,7 @@ function MyVerticallyCenteredModal(props) {
                 </p>
             </Modal.Body>
             <Modal.Footer>
-                <Button href="https://www.npmjs.com/package/react-bootstrap-modal">Source Code</Button>
+                <Button href="https://github.com/shubhams7134/flunkey-project">Source Code</Button>
                 <Button onClick={props.onHide}>Close</Button>
             </Modal.Footer>
         </Modal>

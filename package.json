@@ -1,6 +1,5 @@
 {
-  "homepage": "http://shubhams7134.github.io/flunkey-project",
-  "name": "restaurantmetrics",
+  "name": "restaurant-metrics",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -20,8 +19,6 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
